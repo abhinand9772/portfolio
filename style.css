@@ -384,6 +384,176 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	} }
-	/* End header */
+/* End header */
 
-    /* End  Media Query For Desktop */
+/* End  Media Query For Desktop */
+
+/* about section start */
+
+.about-section{
+	padding-top:40px;
+}
+
+.about-image {
+	position: relative;
+}
+
+.about-image::before {
+	position: absolute;
+	content: '';
+	background-image: url(https://i.ibb.co/d6KQxz0/dots.jpg);
+	background-position: center center;
+	background-size: 100%;
+	width: 375px;
+	height: 250px;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	z-index: -1;
+}
+
+.about-image .single-image {
+	width: 360px;
+}
+
+.float-left {
+	float: left;
+}
+
+.about-image .single-image img {
+	width: 100%;
+}
+
+/* .about-image .single-image.image-tow {
+	margin-top: -200px;
+	position: relative;
+	z-index: 5;
+} */
+
+.about-image .single-image {
+	width: 360px;
+}
+
+.float-right {
+	float: right;
+}
+
+/* .about-content h3{
+	color:#333;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom:10px;
+} */
+
+.about-content p{
+	margin-bottom: 0px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	color: #646464;
+	font-family: 'Poppins', sans-serif;
+}
+
+.about-content p span {
+    color: black;
+}
+
+/* .main-btn {
+	display: inline-block;
+	font-weight: 600;
+	text-align: center;
+	border: 1px solid #eb3656;
+	padding: 0 30px;
+	line-height: 48px;
+	color: #fff;
+	transition: all .8s ease-out 0s;
+	background-color: #eb3656;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+
+.main-btn:hover{
+	background:#333;
+	color:#fff;
+	border-color:#333;
+	transition: all .8s ease-out 0s;
+	text-decoration:none;
+} */
+
+/* about section end */
+
+/* Projects section */
+#projects .projects {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#projects .projects-header h1 {
+	margin-bottom: 50px;
+}
+#projects .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#projects .project-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+#projects .project-info h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#projects .project-info p {
+	color: white;
+}
+#projects .project-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.7;
+}
+#projects .project-img img {
+	transition: 0.3s ease transform;
+}
+#projects .project-item:hover .project-img img {
+	transform: scale(1.1);
+}
+/* End Projects section */
