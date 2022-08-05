@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 * {
 	padding: 0;
@@ -596,6 +597,143 @@ p {
 
 /* contact section start */
 
+.get-in-touch {
+	max-width: 800px;
+	margin: 50px auto;
+	position: relative;
+}
 
+.get-in-touch .title {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 4em;
+	font-weight: 500;
+	/* line-height: 48px; */
+	padding-bottom: 48px;
+	color: black;
+	font-style: sans-serif;
+	margin-bottom: 50px;
+	/* color: #5543ca;
+	background: #5543ca;
+	background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+	background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+	background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important; */
+}
+
+.contact-form .form-field {
+	position: relative;
+	margin: 32px 0;
+}
+
+.contact-form .input-text {
+	display: block;
+	width: 100%;
+	height: 36px;
+	border-width: 0 0 2px 0;
+	border-color: gray;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+}
+
+
+.contact-form .input-text:focus {
+	outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+	-webkit-transform: translateY(-24px);
+			transform: translateY(-24px);
+}
+
+.contact-form .label {
+	position: absolute;
+	left: 20px;
+	bottom: 11px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: black;
+	cursor: text;
+	transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+	transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+	display: inline-block;
+	background-color: #000;
+	background-image: linear-gradient( black);
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	padding: 8px 16px;
+	border: none;
+	width:200px;
+    cursor: pointer;
+}
 
 /* contact section end */
+
+/* footer section start */
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+/* footer section end */
