@@ -28,6 +28,7 @@ nav {
 	background: rgba(0, 0, 0, 0.525);
 	top: 0;
 	position: fixed;
+	left: 0%;
 }
 
 label.logo {
