@@ -646,10 +646,10 @@ nav #icon {
 /* Media Query For Tablet */
 
 @media only screen and (min-width: 768px) {
-	.cta {
+	/* .cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
-	}
+	} */
 	h1.section-title {
 		font-size: 6rem;
 	}
